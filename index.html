@@ -2,17 +2,38 @@
 <html>
 <head>
 	<title>SANZ RQM</title>
-
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="mastercss.css">
 	
 </head>
 <body>
 
+	<div class="quote-box">
+  <div class="quote-text">
+    <blockquote style="margin-bottom: 0px"><i class="fa fa-quote-left"> </i>&nbsp <span id="text"></span></blockquote>
+  </div>
+  <div class="quote-author text-center">
+    - <b><span id="author"></span></b>
+  </div>
+  <div class="buttons">
+    <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+      <i class="fa fa-twitter"></i>
+    </a>
+    <button class="button" id="new-quote"><i class="fa fa-forward" style="font-size: 2em;"></i></button>
+  </div>
+</div>
+<div class="footer"> by <a href="https://codepen.io/hezag/">Sanz</a></div>
+
+
 </body>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
   crossorigin="anonymous"></script>
   <script type="text/javascript" src="masterjs.js"></script>
 </html>
