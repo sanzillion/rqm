@@ -3,10 +3,6 @@ $(document).ready(function(){
 	console.log("Inside jqeury");
 });
 
-/*
-  Code by Gabriel Nunes
-*/
-
 function inIframe () { try { return window.self !== window.top; } catch (e) { return true; } }
 
 var colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB6964', '#342224', "#736466", "#28B8AB", "#47749B", "#64A541"];
