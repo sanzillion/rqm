@@ -1,3 +1,3 @@
 # rqm
-Front-End Project
+Front-End Project [API Section]
 RQM (Random Qoute Machine)
